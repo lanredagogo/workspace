@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-image: url("./image//background.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav img {
+  width: 10rem;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav__links a {
+  color: #5c6a70;
+}
+.nav__links a:hover {
+  color: #000;
+}
+
+.nav__links a:focus {
+  color: #000;
+  font-weight: 600;
+}
+
+.nav__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.nav__button {
+  padding: 1em 2em;
+  border: 1px solid #b6c2c9;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  font-family: "Bai Jamjuree" sans-serif;
+  font-weight: 600;
+}
+
+.nav__button--bg-white {
+  color: #009ece;
+  font-weight: 600;
+}
+
+.nav__button--bg-blue {
+  background: #009ece;
+  color: #fff;
+}
+
+/* Hero Section Started here */
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  color: #000;
+}
+.hero__text {
+  font-weight: 800;
+  width: 40vw;
+  text-wrap: balanced;
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero__text__buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: transparent;
+  gap: 1rem;
+  font-size: 1rem;
+  padding-top: 3em;
+  align-self: flex-start;
+}
+
+.hero__text__button {
+  padding: 1em 2em;
+  border-radius: 5px;
+  border: 1px solid #b6c2c9;
+}
+.hero__text__button--bg-white {
+  color: #009ece;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 9px;
+}
+
+.hero__text__button--bg-blue {
+  background: #009ece;
+  color: #fff;
+}
+/* Her Section End heres */
+
+/* ======= Uitility class ======== */
+
+.container {
+  padding: 2.5em 5em;
+}
+
+.font-bai-jamjuree {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+/* ================    */
